@@ -1,0 +1,83 @@
+<app-navbar></app-navbar>
+
+
+        <div class="cont">
+            <div class="container-fluid">
+              <div class="row">
+                <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                  <div class="sidebar-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" (click)="showDash()">
+                                <i class="fas fa-home" style="padding: 20px"></i>
+                              <span>Dashboard</span>
+                            </a>
+                          </li>
+                      <li class="nav-item">
+                        <a class="nav-link" (click)="showVehicles()">
+                            <i class="fas fa-truck-pickup" style="padding: 20px"></i>
+                          <span>Vehicle List</span>
+                        </a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link" (click)="showTracking()">
+                            <i class="fas fa-expand-arrows-alt" style="padding: 20px"></i>
+                          <span>Tracking</span>
+                        </a>
+                      </li>
+
+                      <li class="nav-item">
+                          <a class="nav-link" (click)="showReports()">
+                              <i class="fas fa-bug" style="padding: 20px"></i>
+                            <span>Reports +</span>
+                          </a>
+                      </li>
+
+                      <li class="nav-item">
+                          <a class="nav-link" (click)="showhistory()">
+                              <i class="fas fa-play" style="padding: 20px"></i>
+                            <span>History</span>
+                          </a>
+                      </li>
+
+                      <li class="nav-item">
+                          <a class="nav-link" (click)="showGeo()">
+                              <i class="fas fa-atlas" style="padding: 20px"></i>
+                            <span>Geo Fence</span>
+                          </a>
+                      </li>
+
+                      <li class="nav-item">
+                          <a class="nav-link" (click)="showNotification()">
+                              <i class="fas fa-bell" style="padding: 20px"></i>
+                            <span>Notifications</span>
+                          </a>
+                      </li>
+
+                      <li class="nav-item">
+                          <a class="nav-link" (click)="showSetting()">
+                              <i class="fas fa-cogs" style="padding: 20px"></i>
+                            <span>Settings</span>
+                          </a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+
+                  <router-outlet></router-outlet>
+
+
+
+              </div>
+            </div>
+            </div>
+
+
+
+
+
+
+
+
+

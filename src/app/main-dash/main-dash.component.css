@@ -1,0 +1,10 @@
+agm-map {
+  width: 470px;
+  height: 500px;
+}
+
+/* for lisr scroll in vehicles list */
+.scrollable{
+  height: 400px;
+  overflow: scroll;
+}

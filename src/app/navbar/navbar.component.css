@@ -1,0 +1,17 @@
+.logo-image{
+  /* padding-left: 100px; */
+width: 25%;
+height: auto;
+border-radius: 10%;
+/* background-color: white;  */
+/* overflow: visible; */
+margin-top: -1px;
+}
+
+.icons{
+font-size: 20px;
+}
+
+nav .nav-link{
+  color: cadetblue !important;
+  }
